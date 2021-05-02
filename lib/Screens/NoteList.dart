@@ -16,6 +16,13 @@ class _NoteListState extends State<NoteList> {
   int count = 0;
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    updateListView();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(

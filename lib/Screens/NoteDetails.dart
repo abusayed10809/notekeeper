@@ -245,14 +245,6 @@ class _NoteDetailsState extends State<NoteDetails> {
         fontSize: 16.0
     );
 
-    // AlertDialog alertDialog = AlertDialog(
-    //   title: Text(title),
-    //   content: Text(message),
-    // );
-    // showDialog(
-    //     context: context,
-    //     builder: (_) => alertDialog
-    // );
   }
 
 
